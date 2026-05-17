@@ -1,0 +1,16 @@
+# Secrets - NEVER commit
+.streamlit/secrets.toml
+*-service-account.json
+*-firebase-adminsdk-*.json
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
